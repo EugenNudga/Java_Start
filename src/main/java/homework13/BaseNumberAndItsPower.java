@@ -18,5 +18,4 @@ public class BaseNumberAndItsPower {
     private int abs(int number) {
         return number > 0 ? number : -number;
     }
-
 }
