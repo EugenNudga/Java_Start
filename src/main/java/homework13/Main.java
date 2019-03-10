@@ -7,6 +7,8 @@ public class Main {
         /**
          * Возвести число в квадрат, куб, степень. Важно: не использовать Math.pow().
          */
+        
+        //Hello from Github
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a base number:");
         int number = scanner.nextInt();
