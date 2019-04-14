@@ -5,8 +5,12 @@ public class MatrixDiagonal {
      * finding a diagonal (more like an array of numbers that lie on that diagonal) from a 2D matrix
      * @return diagonal
      */
-    public int diagonal(byte rows, byte columns, int[][] inputData){
+    public int[] diagonal( int[][] inputData){
+       int[]diagonal= new int[inputData.length];
 
-        return 0;
+        for (int i = 0; i <inputData.length ; i++) {
+            diagonal[i]=inputData[i][i];
+        }
+        return diagonal;
     }
 }
